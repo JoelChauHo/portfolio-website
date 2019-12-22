@@ -2283,6 +2283,10 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
+			/* added field.fifth */
+				form > .fields > .field.fifth {
+					width: calc(20% - 0.3rem);
+				}
 
 		@media screen and (max-width: 480px) {
 
@@ -2626,10 +2630,17 @@ input, select, textarea {
 	}
 
 /* Image */
-
+/*
 	.image {
 		border: 0;
 		border-radius: 4px;
+		display: inline-block;
+		position: relative;
+	}
+ 12-22-19*/
+	.image {
+		border: 0;
+		border-radius: 10px;
 		display: inline-block;
 		position: relative;
 	}
